@@ -5,7 +5,7 @@ const data = [
   {
     id: 1,
     icon: <FaFacebookSquare className="social-icon"></FaFacebookSquare>,
-    url: "https://www.facebook.com/",
+    url: "https://www.facebook.com/padma.jothi.56",
   },
   {
     id: 2,
@@ -16,13 +16,18 @@ const data = [
   {
     id: 3,
     icon: <FaGithub className="social-icon"></FaGithub>,
-    url: "https://github.com/",
+    url: "https://github.com/padmajothiAthimoolam?tab=repositories",
   },
 ]
 const links = data.map(link => {
   return (
     <li key={link.id}>
-      <a href={link.url} className="social-link">
+      <a
+        href={link.url}
+        target="_blank"
+        rel="noreferrer"
+        className="social-link"
+      >
         {link.icon}
       </a>
     </li>

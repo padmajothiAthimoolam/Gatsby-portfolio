@@ -48,10 +48,10 @@
   background-color: rgba(0, 0, 0, 0.2);
 }
 .card-title {
-  color: var(--clr-red-dark);
+  color: var(--clr-red-light);
   text-align: center;
 }
 
 .card-list {
-  color: #696969;
+  color: var(--clr-grey-8);
 }

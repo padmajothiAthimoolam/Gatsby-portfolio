@@ -3,6 +3,7 @@ import Image from "gatsby-image"
 
 import { graphql, useStaticQuery } from "gatsby"
 import SocialLinks from "../constants/socialLinks"
+import About from "./About"
 //import Resume from "../components/Resume"
 const query = graphql`
   {
@@ -26,7 +27,7 @@ const Hero = () => {
     <header className="hero">
       <div className="section-center hero-center">
         <article className="hero-info">
-          <h1>i'm Padmajothi</h1>
+          <h1>I'm Padmajothi</h1>
           <h4>Full stack Web developer with React</h4>
 
           {/* <Resume /> */}
